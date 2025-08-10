@@ -13,9 +13,10 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<style>
 			main {
 				width: 960px;
@@ -55,7 +56,6 @@ const posts = (await getCollection('blog')).sort(
 			}
 			.title {
 				margin: 0;
-				color: rgb(var(--black));
 				line-height: 1;
 			}
 			.date {
