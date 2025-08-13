@@ -2,7 +2,7 @@
 title: 'Un efecto de css que me encanta '
 description: 'Efecto espandido con hover y flex'
 pubDate: 'Aug 12 2025'
-heroImage: '../../assets\efecto-hover-blog.jpg'
+heroImage: '../../assets/efecto-hover-blog.jpg'
 ---
 
 
